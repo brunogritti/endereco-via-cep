@@ -1,10 +1,6 @@
-## Vue Component Generator Command for Laravel
-
-Generate your vue components via terminal
-
 # Instaling
 
-Require this package in your package.json and run `npm install` ou run: 
+Require this package in your package.json and run `npm install` or run: 
 
     npm install endereco-via-cep 
 

@@ -9,6 +9,11 @@ Require this package in your package.json and run `npm install` or run:
 
 getAddressByCEP returns a json with the address.
 
+## Roadmap
+
+* Make getStateByCEP
+* Make getCityByCEP
+
 ## License
 
 This Generator for Laravel is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

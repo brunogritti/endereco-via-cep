@@ -1,16 +1,23 @@
-let address = '';
-let cep = ''
-
 function getAddressByCEP (cep) {
     let cepstring = cep;
-    let url = 'https://viacep.com.br/ws/${cepstring}/json/';
+    let url = `https://viacep.com.br/ws/${cepstring}/json/`;
     
     fetch(url)
     .then(function(response) {
-        address = response.formData;
+        return response;
     });
 }
 
+function getCityByCEP (cep) {
+    //
+}
+
+function getStateByCEP (cep) {
+    //
+}
+
 module.exports = { 
-    getAddressByCEP: getAddressByCEP
+    getAddressByCEP,
+    getCityByCEP,
+    getStateByCEP
 }

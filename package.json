@@ -1,6 +1,6 @@
 {
   "name": "endereco-via-cep",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Este pacote contém uma função que recebe um CEP e retorna um json com o endereço utilizando a API viaCEP ",
   "main": "src/index.js",
   "scripts": {

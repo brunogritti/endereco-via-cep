@@ -13,7 +13,8 @@ getAddressByCEP returns a json with the address.
 
 * Make getStateByCEP
 * Make getCityByCEP
+* Accept param to set the return as JSON ou XML
 
 ## License
 
-This Generator for Laravel is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+This address searching package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

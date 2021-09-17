@@ -4,7 +4,7 @@ function getAddressByCEP (cep) {
     
     fetch(url)
     .then(function(response) {
-        return response;
+        return response.data;
     });
 }
 
